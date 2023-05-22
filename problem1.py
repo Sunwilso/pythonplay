@@ -6,13 +6,9 @@ numbers=[]
 
 for x in range(1,1000):
   if x % 3 ==0 or x % 5==0:
-    print('doesdivideby3')
+    print('does divide by 3 or 5')
     numbers.append(x)
     print(x)
-#   elif x % 5==0: 
-#     print('doesdivideby5')
-#     numbers.append(x)
-#     print(x)     
 
 print(numbers)
 print(sum(numbers))
